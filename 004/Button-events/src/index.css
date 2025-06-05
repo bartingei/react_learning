@@ -1,0 +1,66 @@
+.counter-container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.count-display{
+    font-size: 4em;
+    margin-top: 0;
+    height: 40px;
+}
+
+.counter-button{
+    margin: 5px;
+    background-color: aqua;
+    border: 0.5px solid black;
+    width: 150px;
+    transition: 0.4s ease-in-out;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.counter-button:hover{
+    background-color: rgb(73, 72, 72);
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 50px;
+    font-size: 3rem;
+}
+.color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid grey;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+}
+.color-display p{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+input[type=color]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 4px solod hsl(0, 0%, 80%);
+}

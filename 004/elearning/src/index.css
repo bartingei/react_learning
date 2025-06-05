@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.7);
+}
+.nav-items .nav-header{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color:aliceblue;
+}
+.nav-items ul{
+  display: flex;
+  gap: 30px;
+  list-style-type:none;
+
+}
+.nav-items ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.intro-head{
+  text-align: center;
+  color: rgb(129, 81, 81);
+}
+.intro-text{
+  padding: 30px;
+  text-align: center;
+}
+.registerButton{
+  padding:6px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  transition: 0.2s ease-in-out, transform 0.3s ease-in-out;
+}
+.registerButton:hover{
+  background-color: rgb(77, 75, 75);
+  color: rgb(255, 255, 255);
+  transform: translateY(-3px);
+}
+form{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+}
+form input{
+  background-color: rgba(0,0,0,0.1);
+  border: 1px solid black;
+  height: 20px;
+  margin-left: 10px;
+  
+}
+
+.form-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.registered-courses{
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.reg-header{
+  padding: 40px;
+}
