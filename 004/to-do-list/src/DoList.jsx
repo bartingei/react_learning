@@ -70,7 +70,7 @@ function DoList(){
                         <button 
                         className='up-button'
                         onClick={() => {moveTaskUp(index)}}
-                        type="button">up</button>
+                        type="button">up</button> 
                         <button 
                         className='down-button'
                         onClick={() => {moveTaskDown(index)}}

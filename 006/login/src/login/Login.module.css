@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80')
+      no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1000;
+  font-size: 12px;
+
+}
+.links{
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 70px;
+  height: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+.links:hover{
+  color: #b6b4b4d5;
+  text-decoration: underline;
+}
+form{
+  margin:30px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+input{
+  width: 280px;
+  padding: 10px;
+    margin: 5px 0;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(170, 164, 164, 0.733);
+  color: #333;
+  font-size: 14px;
+  transition: 0.4s ease ;
+  border: none;
+}
+input:hover{
+  background-color: #ccc;
+}
+button{
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: rgba(170, 164, 164, 0.733);
+  font-weight: bold;
+  color: rgb(5, 5, 5);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s ease ;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #cacaca;
+}
+.loginButton{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ffffffd5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+label{
+  font-size: 12px;
+  color:#ffffff;
+  margin-bottom: 5px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+  
+}
+
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  width: 100%;
+
+}
