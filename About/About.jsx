@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom'
 import style from './About.module.css'
-import Home from '../Home/Home.jsx';
-import Shop from '../Shop/Shop.jsx';
-import Contact from "../Contact/Contact.jsx"
-import Cart from '../Cart/Cart.jsx'
+import Home from '../landing-Page/Lander/src/Home/Home.jsx';
+import Shop from '../landing-Page/Lander/src/Shop/Shop.jsx';
+import Contact from "../landing-Page/Lander/src/Contact/Contact.jsx"
+import Cart from '../landing-Page/Lander/src/Cart/Cart.jsx'
 import { FaFacebookF, FaTwitter, FaInstagram, FaPinterest, FaPaperPlane } from "react-icons/fa";
 
 function About(){
